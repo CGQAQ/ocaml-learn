@@ -17,7 +17,7 @@
  (name ocaml-learn)
  (synopsis "learn ocaml")
  (description "learn ocaml")
- (depends ocaml dune)
+ (depends ocaml dune cohttp-lwt-unix)
  (tags
   (topics "learn ocaml")))
 

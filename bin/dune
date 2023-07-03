@@ -6,4 +6,5 @@
 (executable
  (public_name http_get)
  (name http_get)
- (modules Http_get))
+ (modules Http_get)
+ (libraries cohttp-lwt-unix))
