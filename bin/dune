@@ -8,3 +8,8 @@
  (name http_get)
  (modules Http_get)
  (libraries cohttp-lwt-unix))
+
+(executable
+ (public_name try_with)
+ (name try_with)
+ (modules Try_with))

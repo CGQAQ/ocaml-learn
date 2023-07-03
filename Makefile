@@ -8,3 +8,5 @@ times_table: build
 http_get: build
 	dune exec http_get
 
+try_with: build
+	dune exec try_with
