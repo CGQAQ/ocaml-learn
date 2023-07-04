@@ -13,3 +13,8 @@
  (public_name try_with)
  (name try_with)
  (modules Try_with))
+
+(executable
+ (public_name pattern_matching)
+ (name pattern_matching)
+ (modules Pattern_matching))

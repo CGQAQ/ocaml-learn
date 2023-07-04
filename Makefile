@@ -10,3 +10,6 @@ http_get: build
 
 try_with: build
 	dune exec try_with
+
+pattern_matching: build
+	dune exec pattern_matching
