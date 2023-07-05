@@ -18,3 +18,12 @@
  (public_name pattern_matching)
  (name pattern_matching)
  (modules Pattern_matching))
+
+(executable
+ (public_name c_me_daddy_main)
+ (name c_me_daddy_main)
+ (modules C_me_daddy_main C_me_daddy)
+ (libraries ctypes)
+ (foreign_stubs
+  (language c)
+  (names c_me_daddy)))

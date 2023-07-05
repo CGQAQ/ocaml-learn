@@ -13,3 +13,6 @@ try_with: build
 
 pattern_matching: build
 	dune exec pattern_matching
+
+c_me_daddy_main: build
+	dune exec c_me_daddy_main
