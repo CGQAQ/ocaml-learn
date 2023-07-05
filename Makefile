@@ -1,18 +1,20 @@
 build:
 	dune build
 
+cmd=dune exec
+
 
 times_table: build
-	dune exec times_table
+	$(cmd) times_table
 
 http_get: build
-	dune exec http_get
+	$(cmd) http_get
 
 try_with: build
-	dune exec try_with
+	$(cmd) try_with
 
 pattern_matching: build
-	dune exec pattern_matching
+	$(cmd) pattern_matching
 
 c_me_daddy_main: build
-	dune exec c_me_daddy_main
+	$(cmd) c_me_daddy_main
